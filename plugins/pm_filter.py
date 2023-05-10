@@ -867,7 +867,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     # elif query.data == "getlazythumbnail":
     #     buttons = [
     #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="thdonatelazydev"),
+    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ BOTNINJA-OFFICIAL", callback_data="thdonatebotninjaofficial"),
     #         ],
     #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="lazyhome") ]
     #         ]
@@ -877,7 +877,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #         reply_markup=reply_markup,
     #         parse_mode=enums.ParseMode.HTML
     #     )
-    # elif query.data == "thdonatelazydev":
+    # elif query.data == "thdonatebotninjaofficial":
     #     buttons = [
     #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="getlazythumbnail") ]
     #         ]
@@ -890,7 +890,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     # elif query.data == "getlazylink":
     #     buttons = [
     #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="linkdonatelazydev"),
+    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ BOTNINJA-OFFICIAL", callback_data="linkdonatebotninjaofficial"),
     #         ],
     #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="lazyhome") ]
     #         ]
@@ -900,7 +900,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #         reply_markup=reply_markup,
     #         parse_mode=enums.ParseMode.HTML
     #     )
-    elif query.data == "donatelazydev":
+    elif query.data == "donatebotninjaofficial":
         buttons = [
             [ InlineKeyboardButton("⨳   Close   ⨳", callback_data="close_data") ]
             ]
@@ -932,7 +932,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     # elif query.data == "reqauthgetlazythumbnail":
     #     buttons = [
     #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="thdonatelazydev"),
+    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ BOTNINJA-OFFICIAL", callback_data="thdonatebotninjaofficial"),
     #         ],
     #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="reqauthlazyhome") ]
     #         ]
@@ -955,7 +955,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     # elif query.data == "reqauthgetlazylink":
     #     buttons = [
     #         [
-    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="linkdonatelazydev"),
+    #         InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ BOTNINJA-OFFICIAL", callback_data="linkdonatebotninjaofficial"),
     #         ],
     #         [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="reqauthlazyhome") ]
     #         ]
@@ -1016,7 +1016,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+            return await query.answer('♥️ Thank You BOTNINJA-OFFICIAL ♥️')
 
         if status == "True":
             await save_group_settings(grpid, set_type, False)
@@ -1100,7 +1100,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('♥️ Thank You LazyDeveloper ♥️')
+    await query.answer('♥️ Thank You BOTNINJA-OFFICIAL ♥️')
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
@@ -1122,8 +1122,8 @@ async def auto_filter(client, msg, spoll=False):
                                                                                                                                         [InlineKeyboardButton(text=f"😒Not Available", callback_data=f"notify_user_not_avail:{user_id}:{requested_movie}"),InlineKeyboardButton("❌Reject Req", callback_data=f"notify_user_req_rejected:{user_id}:{requested_movie}")],
                                                                                                                                         ]))
                 
-                l = await message.reply_text(text=f"△ 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 `{message.from_user.first_name}` 😎,\n\nʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ **ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ** !\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝𝘾𝙤𝙣𝙩𝙚𝙣𝙩 𝙣𝙖𝙢𝙚 : `{search}`\n➟ 👮𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : `{message.from_user.first_name}`\n\n༺ @{MAIN_CHANNEL_USRNM} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{ADMIN_USRNM}\n╰┈➤・☆ @LazyDeveloperr",
-                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("━ • │▌║  ᗩᗪᗪ ʍɛ 2 ᑌᖇ Ǥᖇᗝᑌᑭ  ║▌│ • ━", url=f'http://t.me/{temp.U_NAME}?startgroup=true')],[InlineKeyboardButton("✪ Dev Ch- ✪", url=f"https://t.me/{DEV_CHANNEL_USRNM}"), InlineKeyboardButton("✪ ＹＴ ✪", url=f"https://youtube.com/@{LAZY_YT_HANDLE}"), InlineKeyboardButton("✪ Main Ch- ✪", url=f"https://t.me/{MAIN_CHANNEL_USRNM}")],[InlineKeyboardButton("╚»♥️ Thank You ♥️«╝", callback_data="close_data")]]))
+                l = await message.reply_text(text=f"△ 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 `{message.from_user.first_name}` 😎,\n\nʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ **ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ** !\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝𝘾𝙤𝙣𝙩𝙚𝙣𝙩 𝙣𝙖𝙢𝙚 : `{search}`\n➟ 👮𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : `{message.from_user.first_name}`\n\n༺ @{MAIN_CHANNEL_USRNM} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{ADMIN_USRNM}\n╰┈➤・☆ @SAHARAN_09",
+                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("━ • │▌║  ᗩᗪᗪ ʍɛ 2 ᑌᖇ Ǥᖇᗝᑌᑭ  ║▌│ • ━", url=f'http://t.me/{temp.U_NAME}?startgroup=true')],[InlineKeyboardButton("✪ botninja Ch- ✪", url=f"https://t.me/{botninja_CHANNEL_USRNM}"), InlineKeyboardButton("✪ ＹＴ ✪", url=f"https://youtube.com/@{LAZY_YT_HANDLE}"), InlineKeyboardButton("✪ Main Ch- ✪", url=f"https://t.me/{MAIN_CHANNEL_USRNM}")],[InlineKeyboardButton("╚»♥️ Thank You ♥️«╝", callback_data="close_data")]]))
                 await asyncio.sleep(20)
                 await l.delete()    
                 if settings["spell_check"]:
@@ -1223,7 +1223,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡ʜᴏᴡ 2 ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/LazyDeveloper'),
+	    InlineKeyboardButton(text="⚡ʜᴏᴡ 2 ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/Links_Tutoriall'),
         ] 
     )
     if offset != "":
@@ -1303,7 +1303,7 @@ async def auto_filter(client, msg, spoll=False):
     if spoll:
         await msg.message.delete()
 
-# Born to make history @LazyDeveloper !
+# Born to make history @BOTNINJA_4 !
 async def advantage_spell_chok(msg):
     query = re.sub(
         r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|new|latest|br((o|u)h?)*|^h(e|a)?(l)*(o)*|mal(ayalam)?|t(h)?amil|file|that|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(u)?(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle(s)?)",
